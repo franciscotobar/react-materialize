@@ -25,6 +25,7 @@ export interface ModalProps {
   open?: boolean;
   root?: HTMLElement | null;
   trigger?: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 /**
