@@ -21,6 +21,7 @@ describe.skip('<Dropdown />', () => {
       </Dropdown>
     );
     wrapper.render();
+    // eslint-disable-next-line react/no-unknown-property
     expect(wrapper.contains(<li className="divider" tanIndex="-1" />));
   });
 

@@ -11,12 +11,16 @@ const Tab = ({ children, idx, className }) => (
 );
 
 Tab.propTypes = {
+  // eslint-disable-next-line react/no-unused-prop-types
   title: PropTypes.string.isRequired,
   idx: PropTypes.string,
   children: PropTypes.node,
   className: PropTypes.string,
+  // eslint-disable-next-line react/no-unused-prop-types
   active: PropTypes.bool,
+  // eslint-disable-next-line react/no-unused-prop-types
   disabled: PropTypes.bool,
+  // eslint-disable-next-line react/no-unused-prop-types
   tabWidth: PropTypes.number
 };
 

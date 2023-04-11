@@ -9,6 +9,7 @@ const Slide = ({ image, children }) => (
 );
 
 Slide.propTypes = {
+  // eslint-disable-next-line react/no-unused-prop-types
   className: PropTypes.string,
   children: PropTypes.node,
   /**
